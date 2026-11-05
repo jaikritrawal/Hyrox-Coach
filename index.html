@@ -708,6 +708,11 @@ var EX = {
   'Dead bug': [0, 'reps', 0, '10/side', 0], 'RKC plank': [0, 'sec', 0, '20s', 0], 'Weighted plank': [2.5, 'kg', 10, '40s', 1], 'Hollow hold': [0, 'sec', 0, '20s', 0], 'Hollow rocks': [0, 'reps', 0, '15', 1],
   'Side plank': [0, 'sec', 0, '30s/side', 0], 'Side plank with reach': [0, 'reps', 0, '8/side', 1], 'Suitcase carry': [2, 'kg', 20, '30m/side', 0], 'Front-rack carry': [2, 'kg', 16, '30m', 1], 'Overhead carry': [2, 'kg', 12, '30m', 2],
   'Pallof press': [1.25, 'kg', 10, '10/side', 0], 'Bird-dog': [0, 'reps', 0, '8/side', 0], 'Half-kneeling cable chop': [1.25, 'kg', 10, '10/side', 0], 'Modified curl-up': [0, 'reps', 0, '8', 0],
+  // everyday gym favourites
+  'DB shrug': [2, 'kg', 20, '15', 0], 'Barbell shrug': [5, 'kg', 40, '12', 0], 'Barbell deadlift': [5, 'kg', 60, null, 2, 1], 'Sumo deadlift': [5, 'kg', 60, null, 2], 'Good morning': [2.5, 'kg', 20, '10', 2, 1], 'Hip thrust machine': [5, 'kg', 40, null, 0],
+  'Cable glute kickback': [1.25, 'kg', 10, '12/side', 0], 'DB pullover': [2, 'kg', 14, '12', 0, 1], 'Incline barbell press': [2.5, 'kg', 30, null, 1, 1], 'Decline DB press': [2, 'kg', 16, null, 0], 'Smith machine bench press': [2.5, 'kg', 30, null, 0], 'Incline machine press': [2.5, 'kg', 30, null, 0], 'Assisted pull-up': [2.5, 'kg', 30, '8', 0],
+  'Pendlay row': [2.5, 'kg', 40, '6', 2], 'Bent-over DB row': [2, 'kg', 16, null, 0], 'Arnold press': [2, 'kg', 12, '10', 0], 'Front raise': [1, 'kg', 6, '12', 0], 'Concentration curl': [1, 'kg', 8, '12', 0], 'Spider curl': [1, 'kg', 8, '12', 0, 1], 'Zottman curl': [1, 'kg', 8, '10', 0],
+  'Rope pushdown': [1.25, 'kg', 15, '12', 0], 'Triceps kickback': [1, 'kg', 6, '12', 0], 'Diamond push-ups': [0, 'reps', 0, '10', 1], 'Wrist curl': [1, 'kg', 8, '15', 0], 'Reverse wrist curl': [1, 'kg', 5, '15', 0], 'Russian twist': [0, 'reps', 0, '20', 0], 'Bicycle crunch': [0, 'reps', 0, '20', 0], 'Crunch': [0, 'reps', 0, '15', 0], 'Sit-ups': [0, 'reps', 0, '15', 0],
   // no equipment
   'Push-ups': [0, 'reps', 0, '12', 0], 'Pike push-ups': [0, 'reps', 0, '8', 1], 'Decline push-ups': [0, 'reps', 0, '10', 1], 'Bodyweight squat': [0, 'reps', 0, '20', 0], 'Bodyweight split squat': [0, 'reps', 0, '10/leg', 0],
   'Reverse lunge': [0, 'reps', 0, '10/leg', 0], 'Chair step-ups': [0, 'reps', 0, '12/leg', 0], 'Plank': [0, 'sec', 0, '40s', 0], 'Burpees': [0, 'reps', 0, '10', 0], 'Mountain climbers': [0, 'sec', 0, '30s', 0], 'Jumping lunges': [0, 'reps', 0, '8/leg', 1], 'High knees': [0, 'sec', 0, '30s', 0]
@@ -727,6 +732,7 @@ var NEED = {
   'Face pull': 'cable', 'Rear-delt fly': 'db', 'Reverse pec deck': 'upm', 'Band pull-apart': 'band', 'Lateral raise': 'db', 'Cable lateral raise': 'cable', 'Lean-away lateral raise': 'db', 'Machine lateral raise': 'upm',
   'Farmers hold': 'db', 'Farmers carry': 'db', 'Dead hang': 'bar', 'Incline DB curl': 'db', 'Cable curl, arm behind you': 'cable', 'DB curl': 'db', 'Hammer curl': 'db', 'EZ-bar curl': 'bb', 'Preacher curl': 'db',
   'Overhead triceps extension': 'db', 'Overhead cable extension': 'cable', 'Skull crusher': 'bb', 'Triceps pushdown': 'cable',
+  'DB shrug': 'db', 'Barbell shrug': 'bb', 'Barbell deadlift': 'bb', 'Sumo deadlift': 'bb', 'Good morning': 'bb', 'Hip thrust machine': 'legm', 'Cable glute kickback': 'cable', 'DB pullover': 'db', 'Incline barbell press': 'bb', 'Decline DB press': 'db', 'Smith machine bench press': 'smith', 'Incline machine press': 'upm', 'Assisted pull-up': 'upm', 'Pendlay row': 'bb', 'Bent-over DB row': 'db', 'Arnold press': 'db', 'Front raise': 'db', 'Concentration curl': 'db', 'Spider curl': 'db', 'Zottman curl': 'db', 'Rope pushdown': 'cable', 'Triceps kickback': 'db', 'Wrist curl': 'db', 'Reverse wrist curl': 'db',
   'Hanging knee raise': 'bar', 'Hanging leg raise': 'bar', 'Cable crunch': 'cable', 'Ab wheel rollout': 'band', 'Weighted plank': 'db', 'Suitcase carry': 'db', 'Front-rack carry': 'kb', 'Overhead carry': 'db', 'Pallof press': 'cable', 'Half-kneeling cable chop': 'cable'
 };
 /* The easier or more available version of harder moves. Shown in the workout and used when equipment is missing. */
@@ -748,35 +754,38 @@ var ALT = {
   'Dead hang': 'Farmers hold', 'Farmers carry': 'Farmers hold', 'Cable curl, arm behind you': 'Incline DB curl', 'EZ-bar curl': 'DB curl', 'Preacher curl': 'DB curl',
   'Overhead cable extension': 'Overhead triceps extension', 'Skull crusher': 'Overhead triceps extension', 'Triceps pushdown': 'Close-grip push-ups', 'Overhead triceps extension': 'Close-grip push-ups',
   'Hanging leg raise': 'Lying leg raise', 'Hanging knee raise': 'Lying leg raise', 'Ab wheel rollout': 'Dead bug', 'Cable crunch': 'Reverse crunch', 'Hollow rocks': 'Dead bug',
+  'Barbell deadlift': 'Trap-bar deadlift', 'Sumo deadlift': 'Romanian deadlift', 'Good morning': 'DB Romanian deadlift', 'Barbell shrug': 'DB shrug', 'DB shrug': 'Farmers hold', 'Incline barbell press': 'Incline DB press', 'Pendlay row': 'Chest-supported row', 'Bent-over DB row': 'Chest-supported row', 'Arnold press': 'Seated DB shoulder press', 'Diamond push-ups': 'Close-grip push-ups', 'Spider curl': 'DB curl', 'Zottman curl': 'DB curl', 'Concentration curl': 'DB curl', 'Rope pushdown': 'Triceps pushdown', 'Triceps kickback': 'Overhead triceps extension', 'Assisted pull-up': 'Lat pulldown', 'Hip thrust machine': 'Barbell hip thrust', 'Cable glute kickback': 'Single-leg glute bridge', 'DB pullover': 'DB fly', 'Decline DB press': 'DB bench press', 'Smith machine bench press': 'DB bench press', 'Incline machine press': 'Incline DB press',
   'Pallof press': 'Dead bug', 'Half-kneeling cable chop': 'Side plank with reach', 'Front-rack carry': 'Suitcase carry', 'Overhead carry': 'Suitcase carry', 'Weighted plank': 'RKC plank'
 };
 /* Movement patterns. Each day draws from the patterns for its body part. */
 var POOL = {
   squat: ['Back squat', 'Front squat', 'Hack squat', 'Leg press', 'Smith machine squat', 'Single-leg leg press'],
-  hinge: ['Romanian deadlift', 'Trap-bar deadlift', 'Barbell hip thrust', 'DB Romanian deadlift'],
+  hinge: ['Romanian deadlift', 'Trap-bar deadlift', 'Barbell hip thrust', 'DB Romanian deadlift', 'Barbell deadlift', 'Sumo deadlift', 'Good morning', 'Hip thrust machine'],
   single: ['Walking DB lunge', 'Bulgarian split squat', 'Step-ups', 'DB reverse lunge', 'Sandbag lunge', 'Deficit reverse lunge'],
   kneeflex: ['Seated leg curl', 'Lying leg curl', 'Nordic curl'],
   quad: ['Leg extension', 'Goblet squat'],
   calf: ['Standing calf raise', 'Single-leg calf raise', 'Leg press calf raise', 'Seated calf raise'],
-  hip: ['Hip adduction machine', 'Hip abduction machine', 'Copenhagen plank', 'Single-leg glute bridge'],
+  hip: ['Hip adduction machine', 'Hip abduction machine', 'Copenhagen plank', 'Single-leg glute bridge', 'Cable glute kickback'],
   plyo: ['Box jumps', 'Broad jumps', 'Jump squats', 'Pogo hops'],
   station: ['Sled push', 'Sled drag backward', 'Sled pull', 'Sandbag lunge', 'Kettlebell swing'],
-  vpull: ['Pull-ups', 'Chin-ups', 'Lat pulldown', 'Neutral-grip pulldown', 'Single-arm cable pulldown'],
-  hpull: ['Chest-supported row', 'Seated cable row', 'One-arm DB row', 'Barbell row', 'T-bar row'],
-  hpush: ['DB bench press', 'Barbell bench press', 'Incline DB press', 'Machine chest press', 'Deficit push-ups', 'Dips', 'Single-arm DB bench press'],
-  fly: ['Cable fly', 'Pec deck', 'DB fly', 'Low-to-high cable fly', 'Single-arm cable fly'],
-  vpush: ['Overhead press', 'Seated DB shoulder press', 'Landmine press', 'Push press', 'Single-arm DB shoulder press'],
+  vpull: ['Pull-ups', 'Chin-ups', 'Lat pulldown', 'Neutral-grip pulldown', 'Single-arm cable pulldown', 'Assisted pull-up'],
+  hpull: ['Chest-supported row', 'Seated cable row', 'One-arm DB row', 'Barbell row', 'T-bar row', 'Pendlay row', 'Bent-over DB row'],
+  hpush: ['DB bench press', 'Barbell bench press', 'Incline DB press', 'Machine chest press', 'Deficit push-ups', 'Dips', 'Single-arm DB bench press', 'Incline barbell press', 'Decline DB press', 'Smith machine bench press', 'Incline machine press'],
+  fly: ['Cable fly', 'Pec deck', 'DB fly', 'Low-to-high cable fly', 'Single-arm cable fly', 'DB pullover'],
+  vpush: ['Overhead press', 'Seated DB shoulder press', 'Landmine press', 'Push press', 'Single-arm DB shoulder press', 'Arnold press'],
   power: ['Explosive cable row', 'Explosive push-ups', 'Wall-ball EMOM', 'DB thrusters'],
   rear: ['Face pull', 'Rear-delt fly', 'Reverse pec deck', 'Band pull-apart'],
   grip: ['Farmers hold', 'Farmers carry', 'Dead hang'],
-  side: ['Lateral raise', 'Cable lateral raise', 'Lean-away lateral raise', 'Machine lateral raise'],
-  bi: ['Incline DB curl', 'Cable curl, arm behind you', 'DB curl', 'Hammer curl', 'EZ-bar curl', 'Preacher curl'],
-  tri: ['Overhead triceps extension', 'Overhead cable extension', 'Skull crusher', 'Triceps pushdown', 'Close-grip push-ups', 'Single-arm triceps pushdown'],
+  side: ['Lateral raise', 'Cable lateral raise', 'Lean-away lateral raise', 'Machine lateral raise', 'Front raise'],
+  trap: ['DB shrug', 'Barbell shrug'],
+  forearm: ['Wrist curl', 'Reverse wrist curl', 'Farmers hold'],
+  bi: ['Incline DB curl', 'Cable curl, arm behind you', 'DB curl', 'Hammer curl', 'EZ-bar curl', 'Preacher curl', 'Concentration curl', 'Spider curl', 'Zottman curl'],
+  tri: ['Overhead triceps extension', 'Overhead cable extension', 'Skull crusher', 'Triceps pushdown', 'Close-grip push-ups', 'Single-arm triceps pushdown', 'Rope pushdown', 'Triceps kickback', 'Diamond push-ups'],
   abs: ['Hanging knee raise', 'Hanging leg raise', 'Lying leg raise', 'Cable crunch', 'Ab wheel rollout', 'Reverse crunch'],
   antiext: ['Dead bug', 'RKC plank', 'Weighted plank', 'Hollow hold', 'Ab wheel rollout'],
   lateral: ['Side plank', 'Side plank with reach', 'Suitcase carry', 'Copenhagen plank'],
-  antirot: ['Pallof press', 'Bird-dog', 'Half-kneeling cable chop'],
-  flex: ['Modified curl-up', 'Cable crunch', 'Hollow rocks', 'Reverse crunch', 'Lying leg raise'],
+  antirot: ['Pallof press', 'Bird-dog', 'Half-kneeling cable chop', 'Russian twist'],
+  flex: ['Modified curl-up', 'Cable crunch', 'Hollow rocks', 'Reverse crunch', 'Lying leg raise', 'Crunch', 'Bicycle crunch', 'Sit-ups'],
   carry: ['Farmers carry', 'Suitcase carry', 'Front-rack carry', 'Overhead carry'],
   tpush: ['Push-ups', 'Pike push-ups', 'Decline push-ups'],
   tleg: ['Bodyweight squat', 'Jump squats', 'Bodyweight split squat'],
@@ -784,11 +793,11 @@ var POOL = {
   tcore: ['Plank', 'Side plank', 'Dead bug', 'Hollow hold'],
   tcond: ['Burpees', 'Mountain climbers', 'Jumping lunges', 'High knees']
 };
-var PAT_NAME = { squat: 'squat', hinge: 'hinge', single: 'single-leg', kneeflex: 'hamstring', quad: 'quad', calf: 'calf', hip: 'hip', plyo: 'power', station: 'HYROX station', vpull: 'vertical pull', hpull: 'row', hpush: 'press', fly: 'chest', vpush: 'overhead press', power: 'power', rear: 'rear delt', grip: 'grip', side: 'side delt', bi: 'biceps', tri: 'triceps', abs: 'abs', antiext: 'core', lateral: 'side core', antirot: 'anti-rotation', flex: 'abs', carry: 'carry', tpush: 'push', tleg: 'leg', tsingle: 'single-leg', tcore: 'core', tcond: 'conditioning' };
+var PAT_NAME = { trap: 'shrug', forearm: 'forearm', squat: 'squat', hinge: 'hinge', single: 'single-leg', kneeflex: 'hamstring', quad: 'quad', calf: 'calf', hip: 'hip', plyo: 'power', station: 'HYROX station', vpull: 'vertical pull', hpull: 'row', hpush: 'press', fly: 'chest', vpush: 'overhead press', power: 'power', rear: 'rear delt', grip: 'grip', side: 'side delt', bi: 'biceps', tri: 'triceps', abs: 'abs', antiext: 'core', lateral: 'side core', antirot: 'anti-rotation', flex: 'abs', carry: 'carry', tpush: 'push', tleg: 'leg', tsingle: 'single-leg', tcore: 'core', tcond: 'conditioning' };
 /* Which muscles each pattern trains. Indirect work counts half, as in the Pelland 2024 volume analysis. */
 var MUS = { squat: { Quads: 1, Glutes: .5 }, hinge: { Hamstrings: 1, Glutes: 1 }, single: { Quads: 1, Glutes: 1 }, kneeflex: { Hamstrings: 1 }, quad: { Quads: 1 }, calf: { Calves: 1 }, hip: { Glutes: .5 }, plyo: { Quads: .5, Calves: .5 }, station: { Quads: .5, Glutes: .5 },
   vpull: { Back: 1, Biceps: .5 }, hpull: { Back: 1, Biceps: .5, Shoulders: .5 }, hpush: { Chest: 1, Triceps: .5, Shoulders: .5 }, fly: { Chest: 1 }, vpush: { Shoulders: 1, Triceps: .5 }, power: { Back: .5, Shoulders: .5 }, rear: { Shoulders: 1 }, grip: { Forearms: 1 },
-  side: { Shoulders: 1 }, bi: { Biceps: 1 }, tri: { Triceps: 1 }, abs: { Core: 1 }, antiext: { Core: 1 }, lateral: { Core: 1 }, antirot: { Core: 1 }, flex: { Core: 1 }, carry: { Core: 1, Forearms: .5 },
+  side: { Shoulders: 1 }, trap: { Shoulders: .5, Back: .5 }, forearm: { Forearms: 1 }, bi: { Biceps: 1 }, tri: { Triceps: 1 }, abs: { Core: 1 }, antiext: { Core: 1 }, lateral: { Core: 1 }, antirot: { Core: 1 }, flex: { Core: 1 }, carry: { Core: 1, Forearms: .5 },
   tpush: { Chest: 1, Triceps: .5 }, tleg: { Quads: 1, Glutes: .5 }, tsingle: { Glutes: 1, Quads: .5 }, tcore: { Core: 1 }, tcond: {} };
 var MUS_ORDER = ['Chest', 'Back', 'Shoulders', 'Biceps', 'Triceps', 'Quads', 'Hamstrings', 'Glutes', 'Calves', 'Core'];
 var MUS_MIN = { Chest: 6, Back: 6, Shoulders: 6, Quads: 6, Hamstrings: 6, Glutes: 6, Biceps: 4, Triceps: 4, Calves: 3, Core: 6 };
@@ -893,6 +902,18 @@ function lowerPumpSlots(r) {
   if (['deload', 'return', 'taper'].indexOf(r.kind) >= 0) return [S('hinge', 2, '10', 'acc'), S('kneeflex', 2, '12', 'iso'), S('calf', 2, '15', 'iso')];
   return [S('hinge', 3, '10', 'acc'), S('quad', 3, '12', 'iso', 'A'), S('kneeflex', 3, '12', 'iso', 'A'), S('hip', 2, null, 'iso', 'B'), S('calf', 3, '15', 'iso', 'B')];
 }
+function pairSlots(r, day) {
+  var L = r.lvl, light = ['deload', 'return', 'taper'].indexOf(r.kind) >= 0, m = light ? 2 : L >= 3 ? 4 : 3, a = light ? 2 : 3;
+  switch (day) {
+    case 'ct': return [S('hpush', m, L >= 6 ? '6' : '8', 'main'), S('hpush', a, '10', 'acc'), S('fly', a, '12', 'iso', 'A'), S('tri', a, '12', 'iso', 'A'), S('tri', a, '12', 'iso')];
+    case 'bb': return [S('vpull', m, L >= 6 ? '6' : '8', 'main'), S('hpull', m, '8', 'acc'), S('rear', a, '15', 'iso', 'A'), S('bi', a, '10', 'iso', 'A'), S('bi', a, '12', 'iso')];
+    case 'lc': return [S('squat', m, L >= 6 ? '5' : '6', 'main'), S('hinge', m, '8', 'main'), S('single', a, null, 'acc'), S('calf', a, '12', 'iso', 'A'), S('abs', a, null, 'core', 'A'), S('antiext', 2, null, 'core')];
+    case 'sc': return [S('vpush', m, '8', 'main'), S('side', a, '15', 'iso', 'A'), S('rear', a, '15', 'iso', 'A'), S('hpush', a, '10', 'acc'), S('fly', a, '12', 'iso')];
+    case 'bl': return [S('hpull', m, '8', 'main'), S('hinge', a, '10', 'acc'), S('vpull', a, '10', 'acc', 'A'), S('kneeflex', a, '12', 'iso', 'A'), S('quad', a, '12', 'iso', 'B'), S('calf', a, '15', 'iso', 'B'), S('trap', 2, '15', 'iso')];
+    case 'ac': return [S('bi', a, '10', 'iso', 'A'), S('tri', a, '12', 'iso', 'A'), S('bi', a, '12', 'iso', 'B'), S('tri', a, '12', 'iso', 'B'), S('forearm', 2, '15', 'iso'), S('abs', a, null, 'core', 'C'), S('lateral', 2, null, 'core', 'C')];
+    default: return [S('hinge', a, '10', 'acc'), S('kneeflex', a, '12', 'iso', 'A'), S('quad', a, '12', 'iso', 'A'), S('hip', 2, null, 'iso', 'B'), S('calf', a, '15', 'iso', 'B'), S('lateral', 2, null, 'core')];
+  }
+}
 function pushSlots(r) {
   var L = r.lvl, light = ['deload', 'return', 'taper'].indexOf(r.kind) >= 0;
   if (light) return [S('hpush', 2, '10', 'main'), S('vpush', 2, '10', 'acc'), S('fly', 2, null, 'iso'), S('tri', 2, null, 'iso')];
@@ -937,8 +958,8 @@ var RACE_TEXT = '8 runs and 8 stations. Run 1 slower than race pace. Jog every t
 var MOB_POOL = ['90/90 hip switches', 'deep squat hold', 'ankle rocks', 'couch stretch', 'open-book rotations', 'world\u2019s greatest stretch', 'hamstring floss', 'cat-camel', 'calf wall stretch', 'half-kneeling hip flexor stretch', 'pigeon stretch', 'Cossack squats', 'thread the needle', 'shoulder circles', 'hip circles', 'wall slides'];
 function mobText(key) { var d = pickMany(MOB_POOL, 'mob:' + key, 5); return '12 min, about 2 min each: ' + d.join(', ') + '.'; }
 var DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
-var LAYOUT = { 'ppl': ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'], '7': DAYS, '6': ['MON', 'TUE', 'WED', 'THU', 'SAT', 'SUN'], '5': ['TUE', 'WED', 'THU', 'SAT', 'SUN'], '4': ['TUE', 'THU', 'SAT', 'SUN'] };
-var LAYOUT_NAME = { 'ppl': '6 days, physique: Push, Pull, Legs, Upper, HYROX. Sunday off', '7': 'Every day', '6': '6 days, Friday off', '5': '5 days, Monday and Friday off', '4': '4 days: Tue, Thu, Sat, Sun' };
+var LAYOUT = { 'pairs': ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'], 'ppl': ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'], '7': DAYS, '6': ['MON', 'TUE', 'WED', 'THU', 'SAT', 'SUN'], '5': ['TUE', 'WED', 'THU', 'SAT', 'SUN'], '4': ['TUE', 'THU', 'SAT', 'SUN'] };
+var LAYOUT_NAME = { 'pairs': '6 days, two body parts a day: chest & triceps, back & biceps, legs & core, shoulders & chest, back & legs, then HYROX or arms & core. Sunday off', 'ppl': '6 days, physique: Push, Pull, Legs, Upper, HYROX. Sunday off', '7': 'Every day', '6': '6 days, Friday off', '5': '5 days, Monday and Friday off', '4': '4 days: Tue, Thu, Sat, Sun' };
 var MULT = { build: 1, hold: 1, step: 0.9, deload: 0.7, 'return': 0.75, taper: 0.6, race: 0.4 };
 var KIND_NAME = { build: 'Building', hold: 'Consolidating', step: 'Stepping back', deload: 'Lighter week', 'return': 'Easing back', taper: 'Taper', race: 'Race week' };
 var OFF = { sick: 'Ill', travel: 'Travelling', rest: 'Rest day', injury: 'Injured' };
@@ -1284,6 +1305,35 @@ var HOW = {
   'Mountain climbers': 'Plank position, drive the knees towards your chest one at a time. Hips level.',
   'Jumping lunges': 'From a lunge, jump and switch legs in the air. Land softly in the next lunge.',
   'High knees': 'Run on the spot driving the knees to hip height. Light feet, arms pumping.',
+  'DB shrug': 'Dumbbells at your sides, arms straight. Lift the shoulders straight up towards your ears, pause, lower slowly. No rolling.',
+  'Barbell shrug': 'Bar in front of your thighs. Shrug straight up, hold a second, lower slowly.',
+  'Barbell deadlift': 'Bar over mid-foot, hips back, flat back, bar close to your shins. Push the floor away until you stand tall. Lower under control.',
+  'Sumo deadlift': 'Wide stance, toes out, hands inside the knees. Chest up, push the knees out and stand. Keep the bar close.',
+  'Good morning': 'Bar on your upper back, soft knees. Push the hips back until you feel the hamstrings, flat back. Stand by driving the hips forward. Light weight.',
+  'Hip thrust machine': 'Back on the pad, bar across the hips. Drive up until flat, squeeze the glutes, lower slowly.',
+  'Cable glute kickback': 'Ankle strap on a low cable. Kick the leg straight back, squeeze the glute, return slowly. Keep the torso still.',
+  'DB pullover': 'Lie across a bench, one dumbbell over your chest. Lower it behind your head with soft elbows until the chest and lats stretch, pull back over.',
+  'Incline barbell press': 'Bench at 30 degrees. Lower the bar to the upper chest, press up and slightly back.',
+  'Decline DB press': 'Bench declined, feet hooked. Lower the dumbbells to the lower chest, press up and together.',
+  'Smith machine bench press': 'Bar over the lower chest, shoulder blades back. Lower to touch, press up. Fixed path, so control the depth.',
+  'Incline machine press': 'Seat set so the handles are at upper-chest height. Press up and forward, return slowly to a stretch.',
+  'Assisted pull-up': 'Knees on the pad, set the counterweight so you can do the reps. Pull your chest to the bar, lower to straight arms.',
+  'Pendlay row': 'Bar on the floor each rep, back flat and parallel. Pull explosively to the lower chest, lower and reset.',
+  'Bent-over DB row': 'Hinge to 45 degrees, flat back. Row both dumbbells to your hips, squeeze, lower slowly.',
+  'Arnold press': 'Start with palms facing you at shoulder height. Rotate the palms out as you press overhead, reverse on the way down.',
+  'Front raise': 'Light dumbbells, straight arms. Raise to shoulder height in front, lower slowly. No swinging.',
+  'Concentration curl': 'Elbow against your inner thigh. Curl to the shoulder, lower slowly to a straight arm.',
+  'Spider curl': 'Chest on an incline bench, arms hanging. Curl without moving the upper arms, lower to a full stretch.',
+  'Zottman curl': 'Curl with palms up, turn the palms down at the top, lower slowly palms down.',
+  'Rope pushdown': 'Elbows pinned, push the rope down and apart at the bottom. Return slowly to 90 degrees.',
+  'Triceps kickback': 'Hinge forward, upper arm parallel to the floor and still. Extend the arm straight back, pause, return.',
+  'Diamond push-ups': 'Hands together under your chest, elbows along your ribs. Lower in a straight line, press up.',
+  'Wrist curl': 'Forearms on your thighs, palms up. Curl the wrists up, lower slowly.',
+  'Reverse wrist curl': 'Forearms on your thighs, palms down. Lift the knuckles up, lower slowly. Light weight.',
+  'Russian twist': 'Sit back with knees bent, feet light. Rotate the torso side to side, moving the ribs, not just the arms.',
+  'Bicycle crunch': 'On your back, hands behind the head. Bring opposite elbow to knee, slow and controlled.',
+  'Crunch': 'Knees bent, hands by your ears. Curl the ribs towards the hips, pause, lower. Short range, no neck pull.',
+  'Sit-ups': 'Knees bent, feet flat. Curl up to sitting and lower with control. Stop if the lower back complains.',
   // warm-up drills
   'leg swings': 'Hold something, swing one leg forward and back, then side to side. Relaxed and loose, growing taller each swing.',
   'glute bridges': 'Lie down, feet flat. Drive the hips up, squeeze the glutes, lower slowly.',
@@ -1342,7 +1392,7 @@ var PICTO = {
   run: '<circle cx="18" cy="5" r="2.2"/><path d="M17 8l-3 8 6 3 1 7M14 16l-6 4-2 6M16 10l6 3M16 10l-6-2"/>'
 };
 var PAT_PIC = { squat: 'squat', quad: 'squat', hinge: 'hinge', single: 'lunge', kneeflex: 'kneeflex', calf: 'calf', hip: 'hip', plyo: 'plyo', station: 'station', vpull: 'vpull', hpull: 'hpull', hpush: 'hpush', fly: 'fly', vpush: 'vpush', power: 'power', rear: 'rear', grip: 'carry', side: 'side', bi: 'bi', tri: 'tri', abs: 'abs', antiext: 'plank', lateral: 'sideplank', antirot: 'chop', flex: 'crunch', carry: 'carry', tpush: 'pushup', tleg: 'squat', tsingle: 'lunge', tcore: 'plank', tcond: 'run' };
-var EX_PIC = { 'Dips': 'hpush', 'Push-ups': 'pushup', 'Deficit push-ups': 'pushup', 'Explosive push-ups': 'pushup', 'Close-grip push-ups': 'pushup', 'Pike push-ups': 'vpush', 'Decline push-ups': 'pushup', 'Plank': 'plank', 'RKC plank': 'plank', 'Weighted plank': 'plank', 'Side plank': 'sideplank', 'Copenhagen plank': 'sideplank', 'Dead hang': 'vpull', 'Burpees': 'run', 'High knees': 'run', 'Mountain climbers': 'pushup', 'Jumping lunges': 'plyo', 'Kettlebell swing': 'hinge', 'Wall-ball EMOM': 'squat', 'DB thrusters': 'vpush', 'Hanging knee raise': 'abs', 'Hanging leg raise': 'abs', 'Lying leg raise': 'crunch', 'Reverse crunch': 'crunch', 'Cable crunch': 'crunch', 'Ab wheel rollout': 'plank', 'Dead bug': 'crunch', 'Bird-dog': 'plank', 'Hollow hold': 'crunch', 'Hollow rocks': 'crunch', 'Modified curl-up': 'crunch', 'Goblet squat': 'squat', 'Leg extension': 'kneeflex' };
+var EX_PIC = { 'DB shrug': 'carry', 'Barbell shrug': 'carry', 'Barbell deadlift': 'hinge', 'Sumo deadlift': 'hinge', 'Good morning': 'hinge', 'DB pullover': 'hpush', 'Front raise': 'side', 'Wrist curl': 'bi', 'Reverse wrist curl': 'bi', 'Russian twist': 'chop', 'Bicycle crunch': 'crunch', 'Crunch': 'crunch', 'Sit-ups': 'crunch', 'Cable glute kickback': 'hip', 'Diamond push-ups': 'pushup', 'Triceps kickback': 'rear', 'Assisted pull-up': 'vpull', 'Dips': 'hpush', 'Push-ups': 'pushup', 'Deficit push-ups': 'pushup', 'Explosive push-ups': 'pushup', 'Close-grip push-ups': 'pushup', 'Pike push-ups': 'vpush', 'Decline push-ups': 'pushup', 'Plank': 'plank', 'RKC plank': 'plank', 'Weighted plank': 'plank', 'Side plank': 'sideplank', 'Copenhagen plank': 'sideplank', 'Dead hang': 'vpull', 'Burpees': 'run', 'High knees': 'run', 'Mountain climbers': 'pushup', 'Jumping lunges': 'plyo', 'Kettlebell swing': 'hinge', 'Wall-ball EMOM': 'squat', 'DB thrusters': 'vpush', 'Hanging knee raise': 'abs', 'Hanging leg raise': 'abs', 'Lying leg raise': 'crunch', 'Reverse crunch': 'crunch', 'Cable crunch': 'crunch', 'Ab wheel rollout': 'plank', 'Dead bug': 'crunch', 'Bird-dog': 'plank', 'Hollow hold': 'crunch', 'Hollow rocks': 'crunch', 'Modified curl-up': 'crunch', 'Goblet squat': 'squat', 'Leg extension': 'kneeflex' };
 /* Two-frame movement pictograms drawn from joint positions: start pose, then end pose. */
 function fig(o) {
   var p = '', L = function (a, b) { return 'M' + a[0] + ' ' + a[1] + 'L' + b[0] + ' ' + b[1]; };
@@ -1407,12 +1457,12 @@ function openHow(name, ctx) {
 /* =====================================================================
    CHANGE TODAY — do a different workout, or swap days, without touching the week's logic.
    ===================================================================== */
-var OVK = { push: ['Push', 'Chest, shoulders, triceps'], pull: ['Pull', 'Back, rear delts, biceps'], legs: ['Legs', 'Squat, hinge, single-leg, hamstrings, calves'], pump: ['Upper pump', 'Shoulders, arms, chest, a row'], lower: ['Lower body', 'Squat, hinge, single-leg, hamstrings, calves'], upper: ['Upper body', 'Pulls, rows, presses, rear delts'], arms: ['Arms, shoulders and chest', 'Pump work in supersets'], core: ['Core', 'Anti-extension, side, anti-rotation, carries'], chestcore: ['Chest and core', 'Light pressing plus the big three'], hotel: ['No-equipment workout', 'Bodyweight, anywhere'], hyrox: ['HYROX session', 'Stations and running'], runonly: ['Just the run', 'Skip today\u2019s lifting'] };
+var OVK = { ct: ['Chest & Triceps', 'Two presses, a fly, triceps'], bb: ['Back & Biceps', 'Pull, row, rear delts, curls'], lc: ['Legs & Core', 'Squat, hinge, single-leg, calves, core'], sc: ['Shoulders & Chest', 'Overhead press, delts, chest'], bl: ['Back & Legs', 'Row, hinge, pull, hamstrings, quads'], ac: ['Arms & Core', 'Curls, triceps, forearms, core'], lg: ['Legs & Glutes', 'Hip thrust, hamstrings, quads, glutes'], push: ['Push', 'Chest, shoulders, triceps'], pull: ['Pull', 'Back, rear delts, biceps'], legs: ['Legs', 'Squat, hinge, single-leg, hamstrings, calves'], pump: ['Upper pump', 'Shoulders, arms, chest, a row'], lower: ['Lower body', 'Squat, hinge, single-leg, hamstrings, calves'], upper: ['Upper body', 'Pulls, rows, presses, rear delts'], arms: ['Arms, shoulders and chest', 'Pump work in supersets'], core: ['Core', 'Anti-extension, side, anti-rotation, carries'], chestcore: ['Chest and core', 'Light pressing plus the big three'], hotel: ['No-equipment workout', 'Bodyweight, anywhere'], hyrox: ['HYROX session', 'Stations and running'], runonly: ['Just the run', 'Skip today\u2019s lifting'] };
 function dayPlanOf(ds) { return (P.dayPlan || {})[ds] || null; }
 function buildOverride(ds, kind) {
   var rec = effRec(weekRec(mondayOf(ds)) || { n: 1, lvl: 0, mon: mondayOf(ds), kind: 'build' }), base = { sid: ds + ':OV:1', key: ds + ':OV:1', ds: ds, week: rec.n, prio: 'key', chosen: true, note: 'Your choice for today.' };
   if (kind === 'hyrox') { var hx = hyxFor(rec); return Object.assign(base, { type: 'hyrox', title: 'HYROX session', text: hx[0], mins: hx[1] }); }
-  var slots = kind === 'lower' || kind === 'legs' ? lowerSlots(rec) : kind === 'upper' ? upperSlots(rec) : kind === 'push' ? pushSlots(rec) : kind === 'pull' ? pullSlots(rec) : kind === 'arms' || kind === 'pump' ? pumpSlots(rec) : kind === 'core' ? coreSlots(rec) : kind === 'hotel' ? travelSlots() : null;
+  var slots = ['ct', 'bb', 'lc', 'sc', 'bl', 'ac', 'lg'].indexOf(kind) >= 0 ? pairSlots(rec, kind) : kind === 'lower' || kind === 'legs' ? lowerSlots(rec) : kind === 'upper' ? upperSlots(rec) : kind === 'push' ? pushSlots(rec) : kind === 'pull' ? pullSlots(rec) : kind === 'arms' || kind === 'pump' ? pumpSlots(rec) : kind === 'core' ? coreSlots(rec) : kind === 'hotel' ? travelSlots() : null;
   var items = kind === 'chestcore' ? tpl(BIG3, 'core').concat(makeItems([{ pat: 'hpush', sets: 3, reps: '10', role: 'acc' }, { pat: 'rear', sets: 2, reps: '15', role: 'iso' }], rec, 'ov:' + ds, [])) : makeItems(slots, rec, 'ov:' + ds, []);
   return Object.assign(base, { type: 'strength', title: OVK[kind][0], items: items, note: (kind === 'hotel' ? 'No equipment. Letters mark supersets. ' : 'Letters mark supersets. ') + 'Your choice for today.' });
 }
@@ -1518,7 +1568,7 @@ function addPain(area) { P.pain = P.pain || []; if (activePain().some(function (
 function clearPain(area) { (P.pain || []).forEach(function (x) { if (x.area === area && !x.until) x.until = todayDs(); }); P.pain = (P.pain || []).slice(-30); _wp = {}; record([{ date: todayDs(), type: 'Pain', note: PAIN[area].label + ' better' }], PAIN[area].label + ' feeling better.'); }
 /* How hard today: easy, normal or hard. Hard adds a set everywhere, shortens rests, and fills spare minutes with extra work. */
 function dayMode(ds) { return (P.dayMode || {})[ds] || (body() && body().hard) || 'normal'; }
-var FILL = { 'Legs light': ['hip', 'quad', 'calf'], 'Lower pump': ['calf', 'hip', 'single'], 'Push': ['side', 'fly', 'tri', 'vpush'], 'Pull': ['rear', 'bi', 'hpull', 'grip'], 'Legs': ['calf', 'quad', 'hip', 'kneeflex'], 'Upper pump': ['fly', 'side', 'rear', 'bi'], 'Lower body': ['calf', 'quad', 'hip', 'kneeflex'], 'Upper body': ['fly', 'rear', 'bi', 'tri'], 'Arms, shoulders and chest': ['fly', 'side', 'vpush', 'rear'], 'Core': ['carry', 'lateral', 'abs'], 'Chest and core': ['fly', 'tri', 'rear'], 'Light core': ['carry', 'abs'], 'No-equipment workout': ['tcore', 'tpush', 'tleg'], 'Hotel workout': ['tcore', 'tpush'] };
+var FILL = { 'Chest & Triceps': ['fly', 'tri', 'hpush'], 'Back & Biceps': ['hpull', 'bi', 'rear'], 'Legs & Core': ['kneeflex', 'calf', 'abs'], 'Shoulders & Chest': ['side', 'fly', 'rear'], 'Back & Legs': ['calf', 'hip', 'hpull'], 'Arms & Core': ['bi', 'tri', 'carry'], 'Legs & Glutes': ['hip', 'calf', 'single'], 'Legs light': ['hip', 'quad', 'calf'], 'Lower pump': ['calf', 'hip', 'single'], 'Push': ['side', 'fly', 'tri', 'vpush'], 'Pull': ['rear', 'bi', 'hpull', 'grip'], 'Legs': ['calf', 'quad', 'hip', 'kneeflex'], 'Upper pump': ['fly', 'side', 'rear', 'bi'], 'Lower body': ['calf', 'quad', 'hip', 'kneeflex'], 'Upper body': ['fly', 'rear', 'bi', 'tri'], 'Arms, shoulders and chest': ['fly', 'side', 'vpush', 'rear'], 'Core': ['carry', 'lateral', 'abs'], 'Chest and core': ['fly', 'tri', 'rear'], 'Light core': ['carry', 'abs'], 'No-equipment workout': ['tcore', 'tpush', 'tleg'], 'Hotel workout': ['tcore', 'tpush'] };
 function applyMode(list, ds) {
   var m = dayMode(ds); if (m === 'normal') return list;
   list.forEach(function (s) {
@@ -1586,6 +1636,28 @@ function buildWeek(rec) {
   if (k === 'step' && tue.k === 'int') tue = Object.assign({}, tue, { reps: Math.max(3, tue.reps - 1) });
   var thu = light ? { k: 'easy', min: 20, strides: 4 } : k === 'taper' ? TH(15) : rec.phase === 'specific' ? TEMPO_SPEC[Math.min(rec.specN, TEMPO_SPEC.length - 1)] : TEMPO[Math.min(L, TEMPO.length - 1)];
   var sat = Object.assign(LG(longMin), rec.phase === 'specific' && L >= 4 && !light ? { finish: L >= 8 ? 15 : 10 } : k === 'build' && L >= 5 && rec.n % 2 === 0 ? { surges: 6 } : {});
+  if ((rec.layout || '7') === 'pairs') {
+    var hxq = hyxFor(rec), nm = function (t) { return light ? 'Lighter week.' : t + '. Letters mark supersets.'; };
+    add('MON', 1, { type: 'run', run: E(easyMin) });
+    add('MON', 2, { type: 'strength', prio: 'key', title: 'Chest & Triceps', items: makeItems(pairSlots(rec, 'ct'), rec, 'mon', used), note: nm('Two presses, a fly, two triceps moves') });
+    add('TUE', 1, { type: 'run', prio: 'key', run: tue });
+    add('TUE', 2, { type: 'strength', title: 'Back & Biceps', items: makeItems(pairSlots(rec, 'bb'), rec, 'tue', used), note: nm('A vertical pull, a row, rear delts, two curls') });
+    add('WED', 1, { type: 'strength', prio: 'key', title: 'Legs & Core', items: makeItems(pairSlots(rec, 'lc'), rec, 'wed', used), note: nm('Squat, hinge, single-leg, calves, then core') });
+    add('WED', 2, { type: 'mobility', title: 'Mobility', mins: 10, text: '10 min: ' + pickMany(MOB_POOL, 'mob:w' + rec.n, 4).join(', ') + '.' });
+    add('THU', 1, { type: 'run', prio: 'key', run: thu });
+    add('THU', 2, { type: 'strength', title: 'Shoulders & Chest', items: makeItems(pairSlots(rec, 'sc'), rec, 'thu', used), note: nm('Overhead press, side and rear delts, then the second chest touch') });
+    add('FRI', 1, { type: 'run', run: E(Math.max(20, easyMin - 5)) });
+    add('FRI', 2, { type: 'strength', prio: 'key', title: 'Back & Legs', items: makeItems(pairSlots(rec, 'bl'), rec, 'fri', used), note: nm('The second back and legs touch of the week: a row, a hinge, a pull, hamstrings, quads, calves') });
+    if (rec.sim) {
+      add('SAT', 1, { type: 'hyrox', prio: 'key', title: 'Simulation', text: hxq[0], mins: hxq[1] });
+      add('SAT', 2, { type: 'mobility', title: 'Cool-down stretch', mins: 10, text: '10 min after the simulation: easy walk, then ' + pickMany(MOB_POOL, 'simmob:w' + rec.n, 4).join(', ') + '.' });
+    } else {
+      add('SAT', 1, { type: 'run', prio: 'key', run: sat });
+      if (S.goal === 'race') add('SAT', 2, { type: 'hyrox', prio: 'key', title: 'HYROX session', text: hxq[0], mins: hxq[1] });
+      else add('SAT', 2, { type: 'strength', title: 'Arms & Core', items: makeItems(pairSlots(rec, 'ac'), rec, 'sat', used), note: nm('Two curls, two triceps moves, forearms, then core') });
+    }
+    return by;
+  }
   if ((rec.layout || '7') === 'ppl') {
     var hxp = hyxFor(rec);
     add('MON', 1, { type: 'run', run: E(easyMin) });
@@ -1680,7 +1752,7 @@ function sessMin(s) {
 }
 function roundMin(m) { return Math.max(5, Math.round(m / 5) * 5); }
 function dayMinutes(list) { return list.reduce(function (a, s) { var st = statusOf(s); if (st === 'Moved' || st === 'Dropped' || st === 'Excused' || st === 'Before' || (s.travelAlt && st !== 'Done')) return a; return a + sessMin(s); }, 0); }
-function warmFor(s) { var t = s.title || '', w = WARM[/Lower|Legs/i.test(t) ? 'lower' : /Upper body|Push|Pull|primer/i.test(t) ? 'upper' : /Arms|pump/i.test(t) ? 'arms' : /core/i.test(t) ? 'core' : 'none']; return body() && body().act === 'sit' ? ['hip flexor stretch, 30 s each side', 'thoracic rotations, 8 each side'].concat(w) : w; }
+function warmFor(s) { var t = s.title || '', w = WARM[/Lower|Legs/i.test(t) ? 'lower' : /Upper body|Push|Pull|Chest|Back|Shoulders|primer/i.test(t) ? 'upper' : /Arms|pump/i.test(t) ? 'arms' : /core/i.test(t) ? 'core' : 'none']; return body() && body().act === 'sit' ? ['hip flexor stretch, 30 s each side', 'thoracic rotations, 8 each side'].concat(w) : w; }
 function coolFor(s) {
   var m = {}; (s.items ? effItems(s) : []).forEach(function (it) { var mu = MUS[it.pat || patOf(it.ex)] || {}; Object.keys(mu).forEach(function (k) { m[k] = (m[k] || 0) + mu[k] * it.sets; }); });
   var top = Object.keys(m).filter(function (k) { return STRETCH[k]; }).sort(function (a, b) { return m[b] - m[a]; }).slice(0, 4); if (!top.length) top = ['Hamstrings', 'Quads', 'Chest'];
@@ -1710,16 +1782,21 @@ function weekMuscles(mon) {
   }
   Object.keys(m).forEach(function (k) { m[k] = Math.round(m[k] * 2) / 2; }); return m;
 }
+/** True when dropping this exercise would leave a muscle in the session with no direct work. */
+function lastForMuscle(s, it) {
+  var mine = Object.keys(MUS[it.pat || patOf(it.ex)] || {}).filter(function (k) { return (MUS[it.pat || patOf(it.ex)] || {})[k] >= 1; });
+  return mine.some(function (m) { return !s.items.some(function (o) { return o !== it && ((MUS[o.pat || patOf(o.ex)] || {})[m] || 0) >= 1; }); });
+}
 function fitDay(list, ds) {
   if (list.some(function (s) { return s.title === 'Race day'; })) return list;
-  var cap = capMin(ds); if (dayMinutes(list) <= cap) return list;
+  var cap = capMin(ds) * 1.1; if (dayMinutes(list) <= cap) return list;
   var open = list.filter(function (s) { return statusOf(s) === 'Planned' && !s.travelAlt; });
   var str = open.filter(function (s) { return s.type === 'strength'; }).reverse(), runs = open.filter(function (s) { return s.type === 'run' && ['easy', 'long', 'rec'].indexOf(s.run.k) >= 0; });
   function each(fn) { for (var a = 0; a < str.length; a++) for (var i = str[a].items.length - 1; i >= 0; i--) if (fn(str[a], str[a].items[i], i)) { str[a].trimmed = true; return true; } return false; }
   var steps = [
     function () { return each(function (s, it) { if (it.role !== 'main' && !it.focus && it.sets > 2) { it.sets--; return true; } }); },
     function () { for (var r = 0; r < runs.length; r++) { var x = runs[r]; if (x.focus) continue; x.run.min0 = x.run.min0 || x.run.min; if (x.run.min - 5 >= (x.run.k === 'long' ? Math.max(45, x.run.min0 * 0.85) : 20)) { x.run.min -= 5; x.trimmed = true; return true; } } return false; },
-    function () { return each(function (s, it, i) { if (it.role !== 'main' && !it.focus && s.items.length > 2) { s.items.splice(i, 1); return true; } }); },
+    function () { return each(function (s, it, i) { if (it.role !== 'main' && !it.focus && s.items.length > 2 && !lastForMuscle(s, it)) { s.items.splice(i, 1); return true; } }); },
     function () { return each(function (s, it) { if (it.role === 'main' && !it.focus && it.sets > 2) { it.sets--; return true; } }); },
     function () { return each(function (s, it) { if (it.focus && it.sets > 2) { it.sets--; return true; } }); },
     function () { for (var r = 0; r < runs.length; r++) { var x = runs[r]; if (x.run.min > (x.run.k === 'long' ? 40 : 20)) { x.run.min -= 5; x.trimmed = true; return true; } } return false; },
@@ -2258,14 +2335,14 @@ function renderOffline() { $('#tabs').hidden = true; $('#app').innerHTML = '<div
 /* ---------- setup */
 function renderSetup() {
   $('#tabs').hidden = true;
-  if (!UI.s || !UI.s.paged) { UI.b = null; UI.tb = null; UI.s = { goal: 'race', level: 'regular', layout: 'ppl', wk: 75, we: 105, noEquip: [], paged: true }; UI.sp = 0; UI.sv = UI.sv || {}; }
+  if (!UI.s || !UI.s.paged) { UI.b = null; UI.tb = null; UI.s = { goal: 'race', level: 'regular', layout: 'pairs', wk: 75, we: 105, noEquip: [], paged: true }; UI.sp = 0; UI.sv = UI.sv || {}; }
   var name = Store.user ? Store.user.name : '', first = name && name !== 'You' ? name.split(' ')[0] : '';
   var steps = [
     ['Your goal', 'Everything else is built from this.', '<div class="chips" style="margin-top:12px" role="group" aria-label="Goal"><button class="chip' + (UI.s.goal === 'race' ? ' on' : '') + '" data-act="s-goal" data-v="race">A HYROX race</button><button class="chip' + (UI.s.goal === 'fitness' ? ' on' : '') + '" data-act="s-goal" data-v="fitness">Fitter and stronger</button></div>' +
       '<div id="s-race" class="row2"' + (UI.s.goal === 'race' ? '' : ' hidden') + '><label class="fld"><span>Race date</span><input class="in" type="date" data-f="raceDate" value="2027-01-15"></label><label class="fld"><span>Goal time</span><input class="in" data-f="goalTime" inputmode="numeric" placeholder="1:30:00" value="1:30:00"></label></div>'],
     ['Your running', 'Paces for every run come from this.', '<label class="fld"><span>A recent 5 km time</span><input class="in" data-f="fiveK" inputmode="numeric" placeholder="For example 27:30"></label><div id="s-prev" class="preview"></div>' +
       '<div class="qrow"><span>How much do you train now?</span><div class="chips" role="group" aria-label="Experience">' + [['new', 'New to this'], ['regular', 'Train regularly'], ['experienced', 'Experienced']].map(function (o) { return '<button class="chip' + (UI.s.level === o[0] ? ' on' : '') + '" data-act="s-level" data-v="' + o[0] + '">' + o[1] + '</button>'; }).join('') + '</div></div>'],
-    ['Your week', 'Every training day is a short run plus a workout.', '<div class="chips" style="margin-top:12px;flex-direction:column;align-items:flex-start" role="group" aria-label="Schedule">' + ['ppl', '7', '6', '5', '4'].map(function (k) { return '<button class="chip' + (UI.s.layout === k ? ' on' : '') + '" data-act="s-layout" data-v="' + k + '">' + LAYOUT_NAME[k] + '</button>'; }).join('') + '</div>'],
+    ['Your week', 'Every training day is a short run plus a workout.', '<div class="chips" style="margin-top:12px;flex-direction:column;align-items:flex-start" role="group" aria-label="Schedule">' + ['pairs', 'ppl', '7', '6', '5', '4'].map(function (k) { return '<button class="chip' + (UI.s.layout === k ? ' on' : '') + '" data-act="s-layout" data-v="' + k + '">' + LAYOUT_NAME[k] + '</button>'; }).join('') + '</div>'],
     ['Your time', 'Weekdays never run over this.', timeHtml('s')],
     ['Your gym', 'Tap anything you don\u2019t have.', equipHtml('s')],
     ['Your body', 'So the plan fits you, not an average.', trainBodyHtml()],
@@ -2497,7 +2574,7 @@ function muscleMap(m, size) {
   return '<svg class="mmap" viewBox="0 0 200 222" style="width:' + (size || 120) + 'px" aria-hidden="true">' + head + legsF + f + headB + '<rect x="140" y="100" width="20" height="6" rx="3" class="sk"/>' + b + '</svg>';
 }
 function musclesLine(m) { var ks = Object.keys(m).filter(function (k) { return m[k] >= .25; }).sort(function (a, b) { return m[b] - m[a]; }).slice(0, 4); return ks.join(' \u00b7 '); }
-var FOCUS_WORD = { 'Push': 'Push', 'Pull': 'Pull', 'Legs': 'Legs', 'Legs light': 'Legs', 'Lower pump': 'Legs', 'Lower body': 'Legs', 'Upper body': 'Upper', 'Upper pump': 'Pump', 'Arms, shoulders and chest': 'Arms', 'Core': 'Core', 'Light core': 'Core', 'Chest and core': 'Chest', 'HYROX session': 'HYROX', 'Conditioning': 'Cond.', 'Simulation': 'Sim', 'Race day': 'Race', 'No-equipment workout': 'Body', 'Hotel workout': 'Body', 'Full-body primer': 'Primer' };
+var FOCUS_WORD = { 'Chest & Triceps': 'Chest', 'Back & Biceps': 'Back', 'Legs & Core': 'Legs', 'Shoulders & Chest': 'Shldrs', 'Back & Legs': 'Back', 'Arms & Core': 'Arms', 'Legs & Glutes': 'Legs', 'Push': 'Push', 'Pull': 'Pull', 'Legs': 'Legs', 'Legs light': 'Legs', 'Lower pump': 'Legs', 'Lower body': 'Legs', 'Upper body': 'Upper', 'Upper pump': 'Pump', 'Arms, shoulders and chest': 'Arms', 'Core': 'Core', 'Light core': 'Core', 'Chest and core': 'Chest', 'HYROX session': 'HYROX', 'Conditioning': 'Cond.', 'Simulation': 'Sim', 'Race day': 'Race', 'No-equipment workout': 'Body', 'Hotel workout': 'Body', 'Full-body primer': 'Primer' };
 function dayFocus(ds) {
   if (P.off[ds]) return OFF[P.off[ds].type].slice(0, 5);
   var l = sessionsOn(ds).filter(function (s) { var st = statusOf(s); return ['Moved', 'Dropped', 'Before'].indexOf(st) < 0 && !(s.travelAlt && st !== 'Done'); });
@@ -2753,7 +2830,7 @@ function vYou() {
   h += '<section class="card" id="set-form"><h2>Goal</h2><div class="chips" style="margin-top:12px" role="group" aria-label="Goal">' + [['race', 'A HYROX race'], ['fitness', 'Get fitter, no race']].map(function (g) { return '<button class="chip' + (s.goal === g[0] ? ' on' : '') + '" data-act="y-goal" data-v="' + g[0] + '">' + g[1] + '</button>'; }).join('') + '</div>' +
     '<div class="row2"' + (s.goal === 'race' ? '' : ' hidden') + ' id="y-race"><label class="fld"><span>Race date</span><input class="in" type="date" data-f="raceDate" value="' + esc(s.raceDate || '') + '"></label><label class="fld"><span>Goal time</span><input class="in" data-f="goalTime" inputmode="numeric" value="' + esc(fmtDur(s.goalTime || 5400)) + '"></label></div>' +
     '<label class="fld"><span>Recent 5 km</span><input class="in" data-f="fiveK" inputmode="numeric" placeholder="26:30" value="' + (s.fiveKSet ? esc(fmtDur(s.fiveK)) : '') + '"></label>' +
-    '<div class="qrow"><span>Schedule</span><div class="chips" style="flex-direction:column;align-items:flex-start" role="group" aria-label="Schedule">' + ['ppl', '7', '6', '5', '4'].map(function (k) { return '<button class="chip' + ((s.layout || '7') === k ? ' on' : '') + '" data-act="y-layout" data-v="' + k + '">' + LAYOUT_NAME[k] + '</button>'; }).join('') + '</div></div>' +
+    '<div class="qrow"><span>Schedule</span><div class="chips" style="flex-direction:column;align-items:flex-start" role="group" aria-label="Schedule">' + ['pairs', 'ppl', '7', '6', '5', '4'].map(function (k) { return '<button class="chip' + ((s.layout || '7') === k ? ' on' : '') + '" data-act="y-layout" data-v="' + k + '">' + LAYOUT_NAME[k] + '</button>'; }).join('') + '</div></div>' +
     '<p class="help">Changes apply to this week if you haven\u2019t logged anything in it yet, otherwise from next week.</p><div class="sess-a" style="padding:14px 0 0"><button class="btn primary" data-act="set-save">Save changes</button></div></section>';
   var used = {}; [0, 7].forEach(function (o) { var by = weekPlan(addDays(mondayOf(todayDs()), o)); Object.keys(by).forEach(function (d) { by[d].forEach(function (x) { (x.items || []).forEach(function (it) { used[it.ex] = 1; }); }); }); });
   Object.keys(P.loads).forEach(function (k) { used[k] = 1; });
